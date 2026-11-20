@@ -35,6 +35,8 @@ https://github.com/user-attachments/assets/7f9cc52c-3f31-4339-9192-e31e506684f6
 wp2shell/
 ├── README.md              ← you are here
 ├── wp2shell.py            ← the unified PoC (single file, stdlib only, by 0xsha)
+├── poc.py                 ← the PoC (single file, by sergiointel)
+├── rce.py                 ← the RCE (single file, stdlib only, by KittySploit Team & 0xsha)
 └── lab/                   ← reproducible Docker labs + reliability matrix
     ├── docker-compose.yml         (default 6.9.4 lab)
     ├── docker-compose.matrix.yml  (parameterised: any version × MySQL/MariaDB)
